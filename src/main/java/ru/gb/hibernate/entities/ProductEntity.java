@@ -1,6 +1,7 @@
 package ru.gb.hibernate.entities;
 
-import lombok.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
@@ -25,5 +26,4 @@ public class ProductEntity {
         this.title = title;
         this.price = price;
     }
-
 }
