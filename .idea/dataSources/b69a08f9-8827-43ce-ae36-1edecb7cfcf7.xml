@@ -791,10 +791,10 @@ false posixrules
       <ObjectId>12938</ObjectId>
       <Comment>default administrative connection database</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>608</IntrospectionStateNumber>
+      <IntrospectionStateNumber>654</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|16394|16396|2
-sequence|table|16442|16444|1
+sequence|table|16658|16660|1
 </Relations>
     </database>
     <role id="3" parent="1" name="pg_monitor">
@@ -835,13 +835,13 @@ sequence|table|16442|16444|1
       <ObjectId>16393</ObjectId>
       <StateNumber>557</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>609</IntrospectionStateNumber>
+      <IntrospectionStateNumber>655</IntrospectionStateNumber>
     </schema>
     <schema id="12" parent="2" name="hibernate_lessons">
       <ObjectId>16417</ObjectId>
       <StateNumber>581</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>610</IntrospectionStateNumber>
+      <IntrospectionStateNumber>656</IntrospectionStateNumber>
     </schema>
     <schema id="13" parent="2" name="information_schema">
       <ObjectId>12648</ObjectId>
@@ -868,7 +868,7 @@ UC/10
 </Acl>
       <StateNumber>352</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>611</IntrospectionStateNumber>
+      <IntrospectionStateNumber>657</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="16" parent="2" name="adminpack">
@@ -981,15 +981,15 @@ UC/10
       <StateNumber>558</StateNumber>
     </table>
     <sequence id="30" parent="12" name="products_id_seq">
-      <ObjectId>16442</ObjectId>
+      <ObjectId>16658</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>605</StateNumber>
+      <StateNumber>649</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
     <table id="31" parent="12" name="products">
-      <ObjectId>16444</ObjectId>
+      <ObjectId>16660</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>607</StateNumber>
+      <StateNumber>649</StateNumber>
     </table>
     <column id="32" parent="29" name="lname">
       <Position>1</Position>
@@ -1039,25 +1039,25 @@ UC/10
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>605</StateNumber>
+      <StateNumber>649</StateNumber>
       <DefaultExpression>nextval(&apos;products_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
     <column id="39" parent="31" name="title">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>605</StateNumber>
+      <StateNumber>649</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="40" parent="31" name="price">
       <Position>3</Position>
       <DataType>numeric|0s</DataType>
-      <StateNumber>607</StateNumber>
+      <StateNumber>649</StateNumber>
       <TypeId>1700</TypeId>
     </column>
     <index id="41" parent="31" name="products_pkey">
-      <ObjectId>16448</ObjectId>
-      <StateNumber>607</StateNumber>
+      <ObjectId>16667</ObjectId>
+      <StateNumber>649</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -1066,8 +1066,8 @@ UC/10
       <ClassIds>3124</ClassIds>
     </index>
     <key id="42" parent="31" name="products_pkey">
-      <ObjectId>16449</ObjectId>
-      <StateNumber>605</StateNumber>
+      <ObjectId>16668</ObjectId>
+      <StateNumber>649</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>products_pkey</UnderlyingIndexName>
